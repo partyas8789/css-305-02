@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .maincontainer{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(3, 3, 83, 0.831);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .calculator{
+            width: 50%;
+            height: 85%;
+            background-color: rgb(208, 82, 103);
+            display: flex;
+            flex-direction: column;
+        }
+        .row1{
+            width: 100%;
+            height: 20%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .b{
+            width: 20%;
+            height: 90%;
+            /* border: 2px solid red; */
+            margin-right: 1rem;
+            background-color: #ffd168;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px;
+        }
+        .bb{
+            width: 70%;
+            height: 90%;
+            /* border: 2px solid rgb(10, 9, 9); */
+            background-color: #26547b;
+            display: flex;
+            align-items: center;
+            justify-content:end;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px;
+            
+        }
+        .bb h1{
+            color: white;
+            margin-right: 1rem;
+        }
+        .b h1{
+            color: #8e7f64;
+        }
+        .row2{
+            width: 100%;
+            height: 20%;
+            /* border: 2px solid rgb(81, 10, 10); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .b1{
+            width: 22%;
+            height: 90%;
+            /* border: 2px solid green; */
+            margin-right: 1rem;
+            background-color: #26547b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px;
+            
+        }
+        .b1 h1{
+            color: white;
+        }
+        .b2{
+            width: 22%;
+            height: 90%;
+            /* border: 2px solid green; */
+            margin-right: 1rem;
+            background-color: #ffd168;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px;
+        }
+        .b2 h1{
+            color: #8e7f64;
+        }
+        .b3{
+            width: 22%;
+            height: 90%;
+            /* border: 2px solid green; */
+            margin-right: 1rem;
+            background-color: #08dba0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px;
+        }
+        .b3 h1{
+            color: #6e8583;
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="calculator">
+            <div class="row1">
+                <div class="b">
+                    <h1>C</h1>
+                </div>
+                <div class="bb">
+                    <h1>0</h1>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="b1">
+                    <h1>7</h1>
+                </div>
+                <div class="b1">
+                    <h1>8</h1>
+                </div>
+                <div class="b1">
+                    <h1>9</h1>
+                </div>
+                <div class="b2">
+                    <h1>X</h1>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="b1">
+                    <h1>4</h1>
+                </div>
+                <div class="b1">
+                    <h1>5</h1>
+                </div>
+                <div class="b1">
+                    <h1>6</h1>
+                </div>
+                <div class="b2">
+                    <h1>/</h1>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="b1">
+                    <h1>1</h1>
+                </div>
+                <div class="b1">
+                    <h1>2</h1>
+                </div>
+                <div class="b1">
+                    <h1>3</h1>
+                </div>
+                <div class="b2">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="b1">
+                    <h1>.</h1>
+                </div>
+                <div class="b1">
+                    <h1>0</h1>
+                </div>
+                <div class="b3">
+                    <h1>=</h1>
+                </div>
+                <div class="b2">
+                    <h1>-</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
